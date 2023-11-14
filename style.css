@@ -1,0 +1,22 @@
+#square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+  }
+  
+  #container,
+  #rabbit-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #rabbit-container div:hover {
+    visibility: hidden;
+  }
+  
+  #destruct {
+    font-size: 100px;
+    color: red;
+    background-color: black;
+  }
+  
